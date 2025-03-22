@@ -22,11 +22,15 @@ A modern and high-performance web service for generating cryptographically secur
 
 1. Clone/Buil/Run the repository:
    ```bash
-     git clone git@github.com:stescobedo92/QuicklyPassword.git
+   git clone git@github.com:stescobedo92/QuicklyPassword.git
 
-     cd QuicklyPassword
+   cd QuicklyPassword
 
-     dotnet retore && dotnet build && dotnet run
+   dotnet retore && dotnet build && dotnet run
+
+2. Run using docker
+   ```bash
+   docker push stescobedo/quickpass:v1.0
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the LICENSE file for details.
